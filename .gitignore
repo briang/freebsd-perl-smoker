@@ -1,6 +1,7 @@
+*.bak
 *.lck
 *.log
+*.pid
+*~
 /logs
 /src*
-*~
-*.bak
