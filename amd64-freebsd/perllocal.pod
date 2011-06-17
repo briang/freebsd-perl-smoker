@@ -1,0 +1,22 @@
+=head2 Thu Jun 16 21:24:48 2011: C<Module> L<Test-Smoke|Test-Smoke>
+
+=over 4
+
+=item *
+
+C<installed into: /usr/home/bri/smoke>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.44>
+
+=item *
+
+C<EXE_FILES: synctree.pl patchtree.pl mailrpt.pl W32Configure.pl configsmoke.pl smokeperl.pl runsmoke.pl archiverpt.pl smokestatus.pl chkbcfg.pl>
+
+=back
+

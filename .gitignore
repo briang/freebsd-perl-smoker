@@ -1,0 +1,6 @@
+*.lck
+*.log
+/logs
+/src*
+*~
+*.bak
