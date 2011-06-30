@@ -23,6 +23,6 @@ echo "$$"       > "$PIDFILE"
 
 export PATH=/bin:/usr/bin:/usr/local/bin
 umask 0
-/home/bri/perl5/perlbrew/perls/perl-5.12.3/bin/perl ./smokeperl.pl -c "$CFGNAME" $continue $* > 512.log 2>&1
+/usr/bin/perl ./smokeperl.pl -c "$CFGNAME" $continue $* > 512.log 2>&1
 
 rm "$LOCKFILE" "$PIDFILE"
