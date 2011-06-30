@@ -21,6 +21,7 @@ $conf = {
           'mserver' => 'smtp.blueyonder.co.uk',
           'opts' => '-az --delete',
           'patchbin' => '/usr/bin/patch',
+          'perl5lib' => '',
           'perl_version' => '5.15.x',
           'pfile' => '',
           'renice' => 0,
