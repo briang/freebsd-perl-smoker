@@ -21,8 +21,7 @@ fi
 echo "$CFGNAME" > "$LOCKFILE"
 echo "$$"       > "$PIDFILE"
 
-PATH=.:/home/bri/perl5/perlbrew/bin:/home/bri/perl5/perlbrew/perls/perl-5.12.3/bin:~/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/games:/usr/local/sbin:/usr/local/bin
-export PATH
+export PATH=/bin:/usr/bin:/usr/local/bin
 umask 0
 /usr/bin/perl ./smokeperl.pl -Dcc='"ccache gcc45"' -c "$CFGNAME" $continue $* > 515.log 2>&1
 
