@@ -1,6 +1,6 @@
-#!/home/bri/perl5/perlbrew/perls/perl-5.12.3/bin/perl -w
+#!/usr/bin/perl -w
 
-eval 'exec /home/bri/perl5/perlbrew/perls/perl-5.12.3/bin/perl -w -S $0 ${1+"$@"}'
+eval 'exec /usr/bin/perl -w -S $0 ${1+"$@"}'
     if 0; # not running under some shell
 use strict;
 $|=1;
